@@ -14,10 +14,6 @@ const Homepage = () => {
 export default Homepage
 
 
-
-
-
-
 // import * as React from "react"
 
 // // styles
