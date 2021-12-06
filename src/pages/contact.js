@@ -5,7 +5,11 @@ import Layout from "../components/layout"
 const ContactPage = () => {
     return(  
         <Layout pageTitle = 'Contact Us' pageHeading = 'Contact' >
-            componente do layout mostrado aqui
+            Contate-Nos <br></br>
+            Nosso endereço de correspondência é: <br></br>
+            152A Charlotte Street, <br></br>
+            Peterborough ON <br></br>
+            Telefone: 705-742-3221 <br></br>
         </Layout>           
     )
 }

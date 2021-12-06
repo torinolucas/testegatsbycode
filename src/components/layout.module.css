@@ -1,11 +1,16 @@
 .container {
     margin: auto;
-    max-width: 500px;
-    font-family: sans-serif;
+    max-width: 1000px;
+    /* font-family: sans-serif; */
+    font: normal 20px Arial;
+    background-color:#ececec;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .heading {
     color: rebeccapurple;
+     
   }
   .nav-links {
     display: flex;
@@ -16,7 +21,51 @@
     padding-right: 1cm;
   }
   .nav-link-text {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+  }
+  .barracima {
+    background-color: rebeccapurple;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+     
+  }
+
+  .rodape {
+    background-color: rebeccapurple;
+    min-height: 100px;
+    color: white;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: -20px;
+    margin-right: -20px;
+
+  }
+
+  .hometext{
+    width: 50%;
+    text-align: justify;
+    font: normal 20px Arial;
+    display: inline-block;
+     
+    
+  }
+
+  .homeimg{
+    width: 45%;
+    float: right;
+    /* margin-top: -415px; */
+    display: inline-block;
+    margin-top: 105px;
   }
 
   /* .pinguin {
