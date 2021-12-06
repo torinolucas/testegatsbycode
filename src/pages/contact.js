@@ -9,7 +9,7 @@ const ContactPage = () => {
             Nosso endereço de correspondência é: <br></br>
             152A Charlotte Street, <br></br>
             Peterborough ON <br></br>
-            Telefone: 705-742-3221 <br></br>
+            Telefone: 715-742-3221 <br></br>
         </Layout>           
     )
 }
