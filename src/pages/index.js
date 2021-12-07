@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
-import {hometext, homeimg} from "../components/layout.module.css"
+import {hometext, homeimg, hometitle2} from "../components/layout.module.css"
 
 
 const Homepage = () => {
@@ -9,11 +9,11 @@ const Homepage = () => {
     <Layout pageTitle = 'Home Page' pageHeading = 'Home Page' >
         <p>Lorem ipsum dolor sit amet</p>
         <StaticImage src = "https://images.unsplash.com/photo-1638704957265-0817f29d9b6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" 
-        alt="icone"
+        alt="pinguin"
         layout= "constrained"
         />
         <div className = {hometext}>
-          <h1> Lorem Ipsum </h1>
+          <h1 className = {hometitle2}> Lorem Ipsum </h1>
           <p> 
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

@@ -53,11 +53,15 @@
 
   .hometext{
     width: 50%;
-    text-align: justify;
+    text-align: start;
     font: normal 20px Arial;
     display: inline-block;
      
     
+  }
+
+  .hometitle2{
+    color: rebeccapurple;
   }
 
   .homeimg{
