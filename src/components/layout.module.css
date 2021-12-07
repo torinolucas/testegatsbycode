@@ -10,21 +10,23 @@
   
   .heading {
     color: rebeccapurple;
-     
   }
+
   .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
   }
+
   .nav-link-item {
     padding-right: 1cm;
   }
+
   .nav-link-text {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    
   }
+
   .barracima {
     background-color: rebeccapurple;
     height: 50px;
@@ -34,7 +36,6 @@
     margin-left: -20px;
     margin-right: -20px;
     padding-left: 20px;
-     
   }
 
   .rodape {
@@ -48,7 +49,6 @@
     margin-top: 30px;
     margin-left: -20px;
     margin-right: -20px;
-
   }
 
   .hometext{
@@ -56,8 +56,6 @@
     text-align: start;
     font: normal 20px Arial;
     display: inline-block;
-     
-    
   }
 
   .hometitle2{
@@ -70,6 +68,13 @@
     /* margin-top: -415px; */
     display: inline-block;
     margin-top: 105px;
+  }
+
+  .sitetitle{
+    color: gray;
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bold;
   }
 
   /* .pinguin {
