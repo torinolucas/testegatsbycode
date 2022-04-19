@@ -1,7 +1,5 @@
-.container {
+/* .container {
     margin: auto;
-    max-width: 1000px;
-    /* font-family: sans-serif; */
     font: normal 20px Arial;
     background-color:#ececec;
     padding-left: 20px;
@@ -64,8 +62,6 @@
 
   .homeimg{
     width: 45%;
-    float: right;
-    /* margin-top: -415px; */
     display: inline-block;
     margin-top: 105px;
   }
@@ -77,6 +73,4 @@
     font-weight: bold;
   }
 
-  /* .pinguin {
-    margin-top: 15px;
-  } */
+   */
