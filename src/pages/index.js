@@ -8,12 +8,15 @@ const Homepage = () => {
   return (
     <Layout pageTitle='Home Page' pageHeading='Home Page' >
       <p>Lorem ipsum dolor sit amet</p>
+      <div>
       <StaticImage src="https://images.unsplash.com/photo-1638704957265-0817f29d9b6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
         // className="w-100 h-100"
         alt="pinguin"
         layout="constrained"
-      />
-      <div className="container">
+      />        
+      </div>
+
+      <section className="container">
         <div className="row">
           <div className="col-lg-6 mt-lg-4">
             <div>
@@ -41,7 +44,10 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div className="row justify-content-around">
+        <section id="sectioncontato">
+          <h1>section contato</h1>
+        </section>
+        {/* <div className="row justify-content-around">
           <div>
             <h1>Cards</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -80,8 +86,8 @@ const Homepage = () => {
               <p className="card-text">Last updated 3 mins ago</p>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      </section>
     </Layout>
   )
 
