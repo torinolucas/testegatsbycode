@@ -11,7 +11,7 @@ const Header = () => {
         console.log('oi')
     }
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-2">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4">
                 <a className="navbar-brand p-lg-3" href="/">
                     Lucas Torino
                 </a>
@@ -24,7 +24,7 @@ const Header = () => {
                 aria-expanded="false" 
                 aria-label="Toggle navigation"
                 >
-                    <span className="navbar-toggler-icon">fd</span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <ul className="navbar-nav">
