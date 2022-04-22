@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from 'gatsby'
 import { Link as ScrollerLink } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoon } from '@fortawesome/free-solid-svg-icons'
@@ -34,16 +35,16 @@ const Header = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <ul className="navbar-nav justify-content-end">
                         <li className="nav-item">
-                            <a className="nav-link navhr" aria-current="page" href="/">Home</a>
+                            <Link className="nav-link navhr" aria-current="page" href="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="about">About</a>                            
+                            <Link className="nav-link" to="/about/">About</Link>                            
                         </li>
                         <li className="nav-item">
-                             <a className="nav-link" href="contact">Contact</a>                         
+                             <Link className="nav-link" to="/contact/">Contact</Link>                         
                         </li>
                         <li className="nav-item">
-                             <a className="nav-link " href="blog" tabindex="-1" aria-disabled="true">Blog</a>
+                             <Link className="nav-link " to="/blog/" tabindex="-1" aria-disabled="true">Blog</Link>
                         </li>
                         <li className="nav-item">
                             <ScrollerLink to="sectioncontato"
