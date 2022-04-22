@@ -1,7 +1,12 @@
 import * as React from "react"
 import { Link as ScrollerLink } from 'react-scroll'
-import icon from "../images/brightness.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMoon } from '@fortawesome/free-solid-svg-icons'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+// import icon from "../images/brightness.png"
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./header.css"
+
 
 
 const Header = () => {
@@ -27,9 +32,9 @@ const Header = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav justify-content-end">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">Home</a>
+                            <a className="nav-link navhr" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="about">About</a>                            
@@ -48,7 +53,7 @@ const Header = () => {
                             </ScrollerLink>
                         </li>
                         <li className="nav-item">
-                             <button className="bg-transparent" onClick={() => myFunction()}><img src={icon} className="iconsize" alt="icone de muito brilho" /> </button>
+                             <FontAwesomeIcon onClick={() => myFunction()} icon={faMoon} size="lg" className="nav-link" alt="icone de muito brilho"/>
                         </li>
                     </ul>
                 </div>
